@@ -41,13 +41,13 @@
         ino <silent> <s-right> <C-X><c-n>
 "===== 60 NeoComplete
     " Plugin key-mappings.
-        call arpeggio#map('i', '', 0, 'dqm.', 'neocomplete#undo_completion()')
-        call arpeggio#map('i', '', 0, 'dqm/', 'neocomplete#complete_common_string()')
+        " call arpeggio#map('i', '', 0, 'dqm.', 'neocomplete#undo_completion()')
+        " call arpeggio#map('i', '', 0, 'dqm/', 'neocomplete#complete_common_string()')
     " <TAB>: completion.
         " <C-h>, <BS>: close popup and delete backword char.
-        inoremap <expr><C-h> neocomplete#smart_close_popup()."\<C-h>"
-        inoremap <expr><BS> neocomplete#smart_close_popup()."\<C-h>"
-        inoremap <expr><C-y>  neocomplete#close_popup()
-        inoremap <expr><C-e>  neocomplete#cancel_popup()
+        " inoremap <expr><C-h> neocomplete#smart_close_popup()."\<C-h>"
+        " inoremap <expr><BS> neocomplete#smart_close_popup()."\<C-h>"
+        " inoremap <expr><C-y>  neocomplete#close_popup()
+        " inoremap <expr><C-e>  neocomplete#cancel_popup()
     " Close popup by <Space>.
-        inoremap <expr><Space> pumvisible() ? neocomplete#close_popup() : "\<Space>"
+        " inoremap <expr><Space> pumvisible() ? neocomplete#close_popup() : "\<Space>"
