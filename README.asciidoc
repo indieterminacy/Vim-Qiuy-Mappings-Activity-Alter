@@ -17,3 +17,12 @@ keyboard
 * Chord structure enables unifying of commands around task rather than
   plugins - novelty of chords mean that the whole 'leader key' dilemma
 is sidestepped
+
+
+
+// Push titles down one level.
+:leveloffset: 1
+
+include::~/60_System/20_Content/20_Documentation/60_Qiuy/qiuy_description.asciidoc[]
+
+
