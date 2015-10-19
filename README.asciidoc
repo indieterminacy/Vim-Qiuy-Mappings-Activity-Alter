@@ -21,8 +21,8 @@ is sidestepped
 
 
 // Push titles down one level.
-:leveloffset: 1
+// :leveloffset: 1
 
-include::~/60_System/20_Content/20_Documentation/60_Qiuy/qiuy_description.asciidoc[]
+// include::~/60_System/20_Content/20_Documentation/60_Qiuy/qiuy_description.asciidoc[]
 
 
