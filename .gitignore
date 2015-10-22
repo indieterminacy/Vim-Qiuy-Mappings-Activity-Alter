@@ -2,7 +2,7 @@
 #################################
 test*
 catscript.sh
-catassemble.sh
+README_source_list
 docs/
 
 # Compiled source #
